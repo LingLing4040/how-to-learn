@@ -40,7 +40,7 @@
 .header__title {
   display: flex;
   width: 730px;
-  z-index: 1;
+  z-index: 3;
   margin-left: 64px;
 }
 
@@ -53,7 +53,7 @@
 .header__subtitle {
   bottom: 30px;
   left: 64px;
-  z-index: 1;
+  z-index: 3;
   width: 388px;
 }
 
@@ -105,19 +105,21 @@
 }
 
 .content {
-  display: flex;
-  justify-content: center;
+
 }
 
 .description {
-  margin-top: 100px;
+  margin: 100px auto 0;
   width: 80%;
-  border: solid 2px red;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
 }
 
 .two-columns {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -125,13 +127,148 @@
   width: 175px;
 }
 
+.description__title {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
-  align-content: space-between;
-  border: solid 1px red;
+  justify-content: space-between;
+}
+
+.two-columns__paragraph {
+  margin: 0 0 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  display: flex;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin: 0;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.digits {
+  width: 100%;
+  margin: 100px auto 100px;
+}
+
+.section-title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.section-subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table {
+  margin: 0 auto;
+  width: 1100px;
+  padding-top: 60px;
+
+}
+
+.table__1st-row {
+  margin-bottom: 60px;
+}
+
+.table__cell {
+  width: 250px;
+
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.table__text:last-of-type {
+  margin-bottom: 0;
+}
+
+.feynman {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 890px;
+  position: relative;
+  z-index: 0;
+}
+
+.feynman__image {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.feynman__title {
+  width: 648px;
+  padding-top: 100px;
+  margin: 0 auto 70px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.feynman__subtitle {
+  width: 648px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
