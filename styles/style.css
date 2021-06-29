@@ -104,6 +104,36 @@
   position: absolute;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  margin-top: 100px;
+  width: 80%;
+  border: solid 2px red;
+}
+
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  border: solid 1px red;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
