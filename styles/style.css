@@ -43,13 +43,13 @@
   width: 388px;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal ;
+  font-weight: normal;
 }
 
 .header__link {
   text-decoration: none;
   display: inline;
-  color: #2f80ed
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -68,7 +68,7 @@
   top: 64px;
   right: 0;
   margin: 0;
-  background-color: #2f80ed ;
+  background-color: #2f80ed;
 }
 
 .description {
@@ -279,7 +279,7 @@
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
-  padding: 60px 0 40px ;
+  padding: 60px 0 40px;
 }
 
 .footer__column_content_copyright {
@@ -338,5 +338,5 @@
 }
 
 .footer__social {
-  margin:0 ;
+  margin:0;
 }
