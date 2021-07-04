@@ -44,6 +44,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .header__link {
@@ -104,7 +105,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  display: flex;
 }
 
 .two-columns__paragraph:last-of-type {
@@ -115,7 +115,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
-  margin-right: 10px;
+  margin: 0;
 }
 
 .digits {
@@ -149,6 +149,7 @@
 .flex-row {
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 
 .table__cell {
@@ -177,7 +178,7 @@
 .feynman {
   background-color: #f2f2f2;
   width: 100%;
-  height: 890px;
+  min-height: 890px;
   position: relative;
 }
 
@@ -259,12 +260,14 @@
   margin: 0;
 }
 
-.kaufman_triangle {
+.kaufman__triangle {
   position: absolute;
   width: 877px;
   height: 877px;
   top: 0;
   right: -210px;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
 }
 
 .footer {
